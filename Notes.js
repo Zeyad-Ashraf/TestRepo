@@ -10,3 +10,4 @@
 // why after 90 days must change Password ? perfromance headache
 // doctor work at different clinics and all of them on my system ?
 // reset links ???
+// EHR Must be a uniform Template 
