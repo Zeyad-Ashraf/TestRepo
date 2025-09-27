@@ -1,5 +1,3 @@
-// how can i use Google Oauth and the receptionist who createing patients accounts with it's mail too ?
-// ask about tenant isolation ? technical term with domain or id or what?
 // who decide the activiation of the doctor ?
 // what do u mean by the doc verify his account ?
 // Inactivity doesn't trigger auto-logout ?????????

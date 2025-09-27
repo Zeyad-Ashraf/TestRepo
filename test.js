@@ -1,2 +1,65 @@
-// hello world
-// hello world again
+const roleCollection = {
+    _id: 'ObjectId',
+    title: 'string',
+    permissions: 'array',
+    tenantID: 'ObjectId',
+    description: 'string',
+    status: 'string active/inactive',
+    createdAt: 'date',
+    updatedAt: 'date',
+    softDelete: 'boolean',
+}
+
+const userCollection = {
+    _id: 'ObjectId',
+    firstName: 'string',
+    lastName: 'string',
+    email: 'string',
+    password: 'string',
+    permissions: 'array',
+    createdAt: 'date',
+    updatedAt: 'date',
+    status: 'string',
+    address: 'string',
+    phone: 'string',
+    profilePicture: 'string',
+    loginAttempts: 'number',
+    refreshToken: 'string',
+    otp: 'object',
+    lockUntil: 'date',
+    gender: 'enum',
+    tenantID: 'ObjectId',
+    RoleID: 'ObjectId',
+    DOB: 'date',
+    addedBy: 'ObjectId',
+    deletedBy: '?ObjectId',
+    type: 'string',
+}
+
+const tenantCollection = {
+    _id: 'ObjectId',
+    name: 'string',
+    ownerID: 'ObjectId',
+    location: 'string',
+    phone: 'string',
+    email: 'string',
+    status: 'string active/inactive',
+    createdAt: 'date',
+    updatedAt: 'date',
+}
+
+const appointmentCollection = {
+    _id: 'ObjectId',
+    patientID: 'ObjectId',
+    tenantID: 'ObjectId',
+    doctorID: 'ObjectId',
+    appointmentDateTime: 'date',
+    type: 'string (online/on-site)',
+    duration: 'number of seconds',
+    status: 'string (scheduled/completed/cancelled)',
+    canceledBy: 'ObjectId',
+    canceledAt: 'date',
+    cancelationReason: 'string',
+    createdAt: 'date',
+    updatedAt: 'date',
+}
