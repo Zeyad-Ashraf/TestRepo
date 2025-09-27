@@ -62,4 +62,6 @@ const appointmentCollection = {
     cancelationReason: 'string',
     createdAt: 'date',
     updatedAt: 'date',
+    isFollowUp: 'boolean',
+    isBillAble: 'boolean',
 }
