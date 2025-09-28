@@ -34,6 +34,7 @@ const userCollection = {
     addedBy: 'ObjectId',
     deletedBy: '?ObjectId',
     type: 'string',
+    passChangedAt: 'date',
 }
 
 const tenantCollection = {
